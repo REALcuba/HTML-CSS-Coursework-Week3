@@ -23,18 +23,19 @@
     height:auto;
 }
 .menu{
-    display:flex;
-    align-items: flex-end;
+    /* display:flex;
+    align-items: flex-end; */
     padding-right: 10px;
+    text-align: right;
     
 }
 .menu ul{
     color: #fff;
     list-style: none;
 }
-.menu__li{
-    text-decoration: ;
-}
+/* .menu__li{
+    
+} */
 .navText{
     display:flex;
     align-items: flex-end;
