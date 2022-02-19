@@ -23,8 +23,9 @@
     height:auto;
 }
 .menu{
-    /* display:flex;
-    align-items: flex-end; */
+
+    text-align: right;
+
     padding-right: 10px;
     text-align: right;
     
