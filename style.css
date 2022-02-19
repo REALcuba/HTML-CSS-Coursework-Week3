@@ -23,17 +23,20 @@
     height:auto;
 }
 .menu{
+
     text-align: right;
+
     padding-right: 10px;
+    text-align: right;
     
 }
 .menu ul{
     color: #fff;
     list-style: none;
 }
-.menu__li{
-    text-decoration: ;
-}
+/* .menu__li{
+    
+} */
 .navText{
     display:flex;
     align-items: flex-end;
