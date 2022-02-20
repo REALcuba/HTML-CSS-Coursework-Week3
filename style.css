@@ -50,7 +50,7 @@
     
 } 
 /* nav Bar media */
-@media (min-width:540px) {
+@media (min-width:320px) {
     .menuMobile{
         display:block;
     }
@@ -107,10 +107,19 @@
     padding:10px;
 
 }
-.productsImg{
-    width: 10px;
+.productImg{
+    width: 150px;
 }
-
+@media (min-width:540px) {
+    .productImg{
+        width: 300px;
+    }
+}
+@media (min-width:900px) {
+    .productImg{
+        width: 400px
+    };
+}
 /* footer */
 
 .footer{
