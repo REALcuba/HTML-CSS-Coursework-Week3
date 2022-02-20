@@ -171,3 +171,10 @@
     background-color: rgba(0,0,0, 0.8);
     color:#fff;
 }
+/* footer media */
+@media (min-width:540px) {
+    .footer__links{
+        display:flex;
+        justify-content: space-evenly;
+    }
+}
