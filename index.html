@@ -12,59 +12,57 @@
   <body>
     <!-- Add your markup here -->
     <nav class="navbar">
-      <div class="navWrapper">
-        <figure>
-          <img class="navPic" src="img/navPic.jfif" alt="" />
-        </figure>
-        <div>
-          <div class="menuMobile">
-            <ul>
-              <li class="menu__li"><span>About</span></li>
-              <li class="menu__li"><span>Products</span></li>
-              <li class="menu__li"><span>Comments</span></li>
-            </ul>
-          </div>
-          <div>
-            <p class="navText">The best cake in town deliver to your door</p>
-          </div>
-        </div>
-      </div>
-      <!-- navMenu desktop -->
-
-      <div>
-        <div class="menuDesktop">
-          <div>
-            <ul>
-              <li class="menu__li"><span>About</span></li>
-              <li class="menu__li"><span>Products</span></li>
-              <li class="menu__li"><span>Comments</span></li>
-            </ul>
-          </div>
-          <div>
-            <p class="navText">The best cake in town deliver to your door</p>
-          </div>
+        <div class="navWrapper">
+            <figure >
+                <img class="navPic" src="img/navPic.jfif" alt="">
+            </figure>
+            <div>
+      
+                <menu class="menuMobile">
+                        <ul>
+                            <li class="menu__li"><span>HOME</span></li>
+                            <li class="menu__li"><a href=""><span>CAKES</span></a></li>
+                            <li class="menu__li"><span>ABOUT</span></li>
+                        </ul>
+                </menu>
+                <div>
+                    <p class="navText">The best cake in town deliver to your door</p>
+                </div>
+                <div class="menuDesktop">
+                  <menu>
+                     <ul>
+                         <li>HOME</li>
+                         <li>CAKES</li>
+                         <li><a href="products"><span>ORDERIN</span></a></li>
+                         <li>LESSONS</li>
+                         <li>ABOUT</li>
+                     </ul>
+                  </menu>
+                </div>
+            </div>
         </div>
       </div>
     </nav>
     <main>
       <section class="welcome">
-        <h1>Welcome</h1>
-        <article>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-          magni alias possimus. Molestiae quisquam, necessitatibus, libero
-          deleniti cum et earum totam debitis dicta sed veniam dolore quia vero
-          beatae aspernatur?
-        </article>
-        <figure>
-          <img class="welcomePic" src="./img/welcomePic.jfif" alt="" />
-        </figure>
+        <div class="welcome__wrapper">
+          <h1 class="heading">Welcome</h1>
+          <article class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur magni alias
+             possimus. Molestiae quisquam, necessitatibus, libero deleniti cum et earum totam
+              debitis dicta sed veniam dolore quia vero beatae aspernatur?
+          </article>
+        </div>
+          <figure class="welcomePic">
+            
+          </figure>
+       
       </section>
       <section class="products">
         <div class="product">
           <img class="productImg" src="./img/weddingCake.jfif" alt="" />
         </div>
         <div class="product">
-          <img class="productImg" src="./img/weddingCake.jfif" alt="" />
+            <img class="productImg" src="./img/welcomePic.jfif" alt="">
         </div>
         <div class="product">
           <img class="productImg" src="./img/weddingCake.jfif" alt="" />
@@ -77,12 +75,21 @@
 
     <!-- footer -->
     <footer class="footer">
-      <div class="contact">
-        <h3>Contact</h3>
-      </div>
-      <div>
-        <h3>email</h3>
-      </div>
+      <div class="footer__links">
+       <div class="contact">
+           <h3>Contact</h3>
+       </div>
+       <div>
+           <h3>email</h3>
+       </div>
+       <div>
+           <h3>facebook</h3>
+       </div>
+    </div>
+       <div class="footer__fot">
+           <h5>copyrights</h5>
+       </div>
+      
     </footer>
   </body>
 </html>
