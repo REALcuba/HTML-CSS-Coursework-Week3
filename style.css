@@ -137,7 +137,6 @@
 
 .products{
     display: grid;
-    grid-template-columns:auto auto;
     justify-content:space-evenly;
  grid-row: 2;
   
@@ -149,14 +148,15 @@
 
 }
 .productImg{
-    width: 150px;
+    width: 250px;
 }
 /* products media */
 @media (min-width:540px) {
 
     .products {
-      
+      display: grid;
         flex-wrap: nowrap;
+        justify-content: center;
     }
     .productImg{
         width: 250px;
